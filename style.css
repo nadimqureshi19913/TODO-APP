@@ -1,0 +1,143 @@
+* {
+    transition: all 0.5s ease-in-out;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background: lightgrey;
+    font-family: arial;
+  }
+  .container {
+    width: 100vw;
+    height: 80vh;
+    background: transparent;
+    flex-direction: column;
+    border: 2px solid grey;
+    position: relative;
+    min-width: 320px;
+  }
+  .nav-bar {
+    width: 100%;
+    height: 15%;
+    background: rgba(120, 0, 250, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .nav-bar img {
+    width: 30px;
+  }
+  .nav-bar img:nth-child(3) {
+    width: 50px;
+  }
+  .input-bar {
+    width: 100%;
+    height: 15%;
+    background: transparent;
+    transform: scale(0);
+    opacity: 0;
+    display: flex;
+  }
+  .input-bar input {
+    padding-left: 70px;
+    font-size: 15px;
+    font-family: italic;
+    font-weight: 700;
+    outline: none;
+    width: 70%;
+  }
+  .Routine-bar {
+    width: 100%;
+    height: 70%;
+    background: white;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  input {
+    width: 70%;
+    border: none;
+  }
+  button {
+    width: 30%;
+    background: rgba(120, 0, 250, 0.6);
+    border: none;
+    font-family: arial;
+    color: white;
+    font-size: 15px;
+  }
+  .tasks-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #task {
+    width: 100px;
+    height: 20px;
+    background: rgba(120, 0, 250, 0.6);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: -20px;
+    position: fixed;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    flex-wrap: wrap;
+    text-align: center;
+
+    padding: 20px;
+    min-height: 200px;
+  }
+  .img {
+    width: 10px;
+  }
+  .li-name {
+    width: 80%;
+    background: rgba(120, 0, 250, 0.6);
+    padding: 10px;
+  }
+  .delete {
+    padding: 5px;
+    background: red;
+    color: white;
+  }
+  .deletebtn {
+    width: 30%;
+    padding: 10px;
+    background: rgba(120, 0, 250, 0.6);
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  ul li {
+    width: 30%;
+    background: rgba(120, 0, 250, 0.6);
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    overflow: scale;
+  }
+  ul li input {
+    width: 70%;
+  }
+  
